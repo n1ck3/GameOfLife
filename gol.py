@@ -121,22 +121,22 @@ class Grid:
         self.locations[6][27] = 1
 
         # Lightweight Spaceship
-        self.locations[14][16] = 1
-        self.locations[17][16] = 1
-        self.locations[18][17] = 1
-        self.locations[18][18] = 1
-        self.locations[18][19] = 1
-        self.locations[17][19] = 1
-        self.locations[16][19] = 1
-        self.locations[15][19] = 1
         self.locations[14][18] = 1
+        self.locations[17][18] = 1
+        self.locations[18][19] = 1
+        self.locations[18][20] = 1
+        self.locations[18][21] = 1
+        self.locations[17][21] = 1
+        self.locations[16][21] = 1
+        self.locations[15][21] = 1
+        self.locations[14][20] = 1
 
         # Glider
-        self.locations[14][24] = 1
-        self.locations[15][24] = 1
-        self.locations[16][24] = 1
-        self.locations[16][23] = 1
-        self.locations[15][22] = 1
+        self.locations[14][27] = 1
+        self.locations[15][27] = 1
+        self.locations[16][27] = 1
+        self.locations[16][26] = 1
+        self.locations[15][25] = 1
 
         self.draw()
 
@@ -299,6 +299,6 @@ if __name__ == '__main__':
             if grid.state == "RUNNING":
                 grid.progress()
 
-            clock.tick(30)
+            clock.tick(5)
 
             pygame.display.update()
