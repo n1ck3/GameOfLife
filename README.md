@@ -1,6 +1,10 @@
 # gameoflife
 Conway's game of life (implemented in Python 2)
 
+# Screenshot
+
+![Game Of Life](https://raw.githubusercontent.com/n1ck3/GameOfLife/master/gol.gif)
+
 ## Prerequisites
 ```
 virtualenv
